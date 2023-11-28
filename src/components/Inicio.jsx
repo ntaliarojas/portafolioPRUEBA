@@ -10,13 +10,13 @@ const Inicio = () => {
        
         {/* Nombrea */}
         <div className=" txt-name mb-4 lg:mb-0 lg:mr-4">
-          <div className=" text-[38px] lg:text-[5rem]   flex items-center justify-center ">
-            <h1>NATALIA ROJA'S</h1>
+          <div  className=" text-[38px] lg:text-[5rem]   flex items-center justify-center ">
+            <h1 >NATALIA ROJA'S</h1>
           </div>
         </div>
 
         <div className="mb-4 lg:hidden lg:mb-0 lg:mr-4">
-          <div className=" text-[18px] flex items-center justify-center ">
+          <div className="text-last text-[18px] flex items-center justify-center ">
             <h1>FRONTED DEVELOPER</h1>
           </div>
         </div>

@@ -3,46 +3,26 @@
 @tailwind utilities;
 
 /*AJUSTES DEL COMPONENTE INICIO*/
-@media (max-width: 1022px) {
-  .txt-parrafo {
-    display: none;
-  }
-}
-
-
-
-@media (max-width: 1010px) {
-  .txt-name2 {
-    margin-top: 0;
-    font-size: 2.5rem;
-    padding-bottom: 1rem;
-    padding-top: 2rem;
-  }
-
-  .cuadro7 h5 {
-    font-size: 1.1rem;
-    margin: 0 auto;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
 @media (min-width: 1023px) {
+  .txt-about4 {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2em;
+  }
   .txt-parrafo {
-    color: #714056;
+    color: #031a6b;
     line-height: 1;
     font-weight: 700;
-    margin-top: -9rem;
+    margin-top: -8rem;
+    margin-right: -2rem;
   }
 
   .txt-name {
-    color: #572e3e;
+    color: #931621;
     font-weight: lighter;
     font-family: "Poppins", sans-serif;
-    letter-spacing: 0.8em;
+    letter-spacing: 2em;
     margin-left: 6rem;
-    margin-top: -5rem;
+    margin-top: -6rem;
   }
 
   .redes {
@@ -54,26 +34,127 @@
 
   .code {
     width: 4rem;
-    bottom: 2.5rem;
+    bottom: 3rem;
     position: absolute;
+    margin-left: -1rem;
   }
 
   .memoria {
-    bottom: 9rem;
+    bottom: 10rem;
     position: absolute;
+    margin-left: 10rem;
+  }
+  /*AJUSTES DEL COMPONENTE SobreMi*/
+  .about1 {
+    padding-right: 8rem;
+    margin-top: -rem;
+  }
+  .About {
+    color: black;
+    height: 100rem;
+  }
+  .Formacion {
+    position: relative;
+    background-image: url("../src/assets/images/dnaranja.png"); /* Ruta a tu imagen de fondo */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: black;
+
   }
 }
-
-
-@media (max-width: 295px) {
-  .txt-name {
-    font-family: "Poppins", sans-serif;
-    font-size: 1rem;
+@media (max-width: 1022px) {
+  .txt-parrafo {
+    display: none;
+  }
+  .txt-name{
+    color: #031a6b;
     font-weight: bold;
-    margin: 0 auto;
-    text-align: center;
+    
   }
 }
+
+@media (max-width: 920px) and (min-width:765px ) {
+  .About {
+    color: black;
+    height: 165rem;
+  }
+  .txt-parrafo {
+    display: none;
+  }
+  .txt-name h1{
+    color: #031a6b;
+    font-weight: bold;
+    font-size: 5rem;
+  }
+  .text-last{
+    font-size: 2rem;
+  }
+  .memoria li{
+    font-size: 1.5rem;
+  }
+  .code img{
+    width: 10rem;
+  }
+  .redes img{
+    width: 3rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .About {
+    color: black;
+    height: 170rem;
+  }
+  .sakura {
+    display: none;
+  }
+ 
+}
+@media (max-width: 290px) {
+  .About {
+    color: black;
+    height: 190rem;
+  }
+  .sakura {
+    display: none;
+  }
+  .txt-name h1{
+    font-size: 2rem;
+    color: #031a6b;
+  }
+  .txt-about2 h1{
+    font-size: 1.7rem;
+    text-align: center  ;
+  }
+  .txt-about3{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #931621;
+  }
+ 
+}
+
+/*AJUSTES DEL COMPONENTE INICIO*/
+.inicio {
+  color: black;
+  background-repeat: no-repeat;
+}
+
+/*AJUSTES DEL COMPONENTE SobreMi*/
+.txt-about3 {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 2em;
+}
+.sakura {
+  margin-top: -2.1rem;
+  margin-right: -2.4rem;
+}
+.foto-me {
+  border-radius: 50%;
+}
+
+/*AJUSTES DEL COMPONENTE SobreMi*/
 
 .cuadro1 {
   border: 1px solid #714056;
@@ -108,7 +189,6 @@
   background-image: url(../src/assets/images/yo.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .cuadro6 {
@@ -139,67 +219,6 @@
   background-size: cover;
 }
 
-@media (max-width: 770px ) {
-  .cuadro10 {
-    height: 10rem;
-    border: 1px solid #714056;
-    grid-area: n10;
-    background-image: url(../src/assets/images/letras.png);
-    background-size: cover;
-  }
-  .txt-name2{
-    font-size: 1.5rem;
-  }
-  .sobreMi{
-    height: 59rem;
-  }
-  .cuadro9 h1{
-    font-size: 4rem;
-  }
-  .grid {
-  
-    color: black;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-template-areas:
-      "n1 n1 "
-      "n2 n2"
-      "n4 n5"
-      "n9 n9"
-      "n6 n7"
-      "n10 n10";
-  }
-}
-
-
-@media (min-width: 771px) {
-  .grid {
-    color: black;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-areas:
-      "n1 n2 n2 n2"
-      "n4 n5 n6 n7"
-      "n4 n5 n6 n7"
-      "n9 n9 n9 n10";
-  }
-  .cuadro4 h1{
-    font-size: 2rem;
-  }
-  .cuadro7 h5{
-    margin-top: 0.6rem;
-    font-size: 0.9rem;
-  }
-  .cuadro6 h1{
-    font-size: 1.3rem;
-  }
-  .cuadro6 p{
-    font-size: 0.6rem;
-  }
-}
-
 .inner-box {
   width: 80%;
   height: 80%;
@@ -211,22 +230,15 @@
   border: 1px solid #714056;
 }
 
-.inicio {
-  color: black;
-}
-
-.foto-me {
-  height: 13rem;
-}
-
 .portafolio {
   background-repeat: repeat;
+  background-size: contain;
   height: auto;
-  background-image: url(../src/assets/images/Diseño_sin_título__4_-removebg-preview.png);
+  background-image: url(../src/assets/images/fondo.png);
 }
 
 .main {
-  background-color: #c1c6c9;
+  background-color: #e8ddb5;
   position: relative;
   overflow: hidden;
   font-family: "Roboto", sans-serif;
@@ -331,10 +343,6 @@
     bottom: 100vh;
     opacity: 0;
   }
-}
-
-.about {
-  background-color: #714056 !important;
 }
 
 .txt-name2 {
