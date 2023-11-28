@@ -4,6 +4,10 @@
 
 /*AJUSTES DEL COMPONENTE INICIO*/
 @media (min-width: 1023px) {
+  .icon{
+    background-color: #031a6b8c;
+    border-radius: 30%;
+  }
   .txt-about4 {
     font-family: "Poppins", sans-serif;
     letter-spacing: 2em;
@@ -102,19 +106,42 @@
 }
 
 @media (max-width: 640px) {
+  .icon{
+    background-color: none;
+    border-radius: none;
+  }
+  .icon img{
+    width:130px;
+    margin: 0 auto;
+  }
+  .skills{
+    margin: 0 auto;
+  }
+  
+.portafolio{
+  height: 155rem;
+}
+  .card{
+    margin: 0 auto;
+    max-width: 15rem;
+    margin-bottom: 2rem;
+  }
   .about2{
     background-image: url(../src/assets/images/dnaranja\ -\ copia.png);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .About {
     color: black;
-    height: 175rem;
+    height: 180rem;
   }
   .sakura {
     display: none;
   }
 
   .txt-about3{
-    font-size: 1.3rem;
+    font-size: 1rem;
+    font-weight: bold;
   }
  .description{
   margin-top: 3rem;
@@ -164,8 +191,15 @@
   border-radius: 50%;
 }
 
-/*AJUSTES DEL COMPONENTE SobreMi*/
+.skills{
+  margin: 0 auto;
+}
 
+/*AJUSTES DEL COMPONENTE SobreMi*/
+.icon img:hover{
+  background-color: #0b0b0e44;
+  border-radius: 30%;
+}
 .cuadro1 {
   border: 1px solid #714056;
   grid-area: n1;
@@ -243,11 +277,11 @@
 .portafolio {
   background-repeat: repeat;
   background-size: contain;
-  height: auto;
   background-image: url(../src/assets/images/fondo.png);
 }
 
 .main {
+  height: auto;
   background-color: #e8ddb5;
   position: relative;
   overflow: hidden;
