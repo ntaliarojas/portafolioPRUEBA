@@ -5,6 +5,7 @@ import sakura from "../assets/images/sakura.png";
 import udemy from "../assets/images/udemy.jpg";
 import sena from "../assets/images/sena.jpg";
 import unal from "../assets/images/unal.jpg";
+import fondo from "../assets/images/dnaranja\ -\ copia.png";
 
 
 const callouts = [
@@ -93,7 +94,7 @@ const SobreMi = () => {
           VENGA<samp className="font-bold" style={{ color: "#031a6b" }}>LE</samp>
           <br /> CUENTO.
         </h1>
-        <div className="pt-12 pb-16 text-black">
+        <div className="pt-12 sm:pb-16 text-black">
           <p>
             soy una entusiasta del anime y la programación. Me encanta parchar
             por Bogotá especialmente en bicicleta durante las noches y pasar
