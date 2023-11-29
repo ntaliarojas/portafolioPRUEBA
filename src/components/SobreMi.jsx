@@ -5,7 +5,6 @@ import sakura from "../assets/images/sakura.png";
 import udemy from "../assets/images/udemy.jpg";
 import sena from "../assets/images/sena.jpg";
 import unal from "../assets/images/unal.jpg";
-import fondo from "../assets/images/dnaranja\ -\ copia.png";
 
 
 const callouts = [

@@ -155,6 +155,11 @@
     color: black;
     height: 180rem;
   }
+  .about2{
+    background-image: url(../src/assets/images/copia.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
   .sakura {
     display: none;
   }
@@ -171,6 +176,11 @@
 }
 
 @media (max-width: 290px) {
+  .about2{
+    background-image: url(../src/assets/images/copia.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
   .About {
     color: black;
     height: 190rem;
