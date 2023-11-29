@@ -72,12 +72,12 @@ const Portafolio = () => {
         </div>
       </div>
 
-      <div className="skills sm:pt-12">
+      <div className="skills sm:pt-12 px-6">
         <div className="">
           <h1 className="text-4xl text-center font-bold text-black" style={{ color: "#031a6b" }}>Tecnologias</h1>
         </div>
 
-        <div className="skill-icon pt-12 gap-12 pb-12 sm:flex sm:flex-wrap sm:justify-center items-center">
+        <div className="skill-icon pt-12 gap-12 pb-12 flex flex-wrap justify-center items-center">
           <div className="icon w-1/2 w-auto mb-4">
             <img src={html} alt="html"  />
           </div>

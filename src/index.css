@@ -86,17 +86,30 @@
   }
 }
 
-@media (max-width: 1022px) and (min-width:765px ) {
+@media (max-width: 1022px) and (min-width:672px ) {
+  
+  .txt-parrafo {
+    display: flex;
+    font-size: 7rem;
+    margin-top: -10rem;
+    margin-left: 27rem;
+    color: #031a6b;
+    font-weight: bold;
+  }
   .txt-about4 {
     font-family: "Poppins", sans-serif;
     letter-spacing: 1em;
   }
+   .icon{
+    background-color: #031a6b8c;
+    border-radius: 30%;
+  }
   .icon img{
-    width:230px;
+    width:95px;
     margin: 0 auto;
   }
   .portafolio{
-    min-height: 90rem;
+    min-height: 30rem;
   }
   .card{
     margin: 0 auto;
@@ -104,13 +117,11 @@
   }
   .About {
     color: black;
-    height: 165rem;
+    min-height: 110rem;
   }
-  .txt-parrafo {
-    display: none;
-  }
+ 
   .txt-name h1{
-    color: #031a6b;
+    color: #931621;
     font-weight: bold;
     font-size: 5rem;
   }
@@ -118,32 +129,40 @@
     font-size: 2rem;
   }
   .memoria li{
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin-right: 10rem;
   }
   .code img{
-    width: 10rem;
+    margin-right: 10rem;
+    width: 8rem;
   }
   .redes img{
     width: 3rem;
   }
 }
 
-@media (max-width: 640px) {
-
+@media (max-width: 672px) and (min-width:501px ) {
+  .inicio{
+    background-image: url(../src/assets/images/inicio__1_-removebg-preview.png);
+    background-size: cover;
+    background-position: center center;
+  }
+  .icon{
+    background-color: #031a6b8c;
+    border-radius: 30%;
+  }
   .icon{
     background-color: none;
     border-radius: none;
   }
   .icon img{
-    width:130px;
+    width:80px;
     margin: 0 auto;
   }
-  .skills{
-    margin: 0 auto;
-  }
+
   
 .portafolio{
-  height: 155rem;
+  min-height: 60rem;
 }
   .card{
     margin: 0 auto;
@@ -153,7 +172,7 @@
  
   .About {
     color: black;
-    height: 180rem;
+    height: 110rem;
   }
   .about2{
     background-image: url(../src/assets/images/copia.png);
@@ -175,7 +194,14 @@
  }
 }
 
-@media (max-width: 290px) {
+@media (max-width: 500px) {
+  .icon img{
+    width: 120px;
+  }
+  .icon{
+    background-color: #031a6b8c;
+    border-radius: 30%;
+  }
   .about2{
     background-image: url(../src/assets/images/copia.png);
     background-size: contain;
@@ -183,7 +209,7 @@
   }
   .About {
     color: black;
-    height: 190rem;
+    height: 180rem;
   }
   .sakura {
     display: none;
@@ -228,6 +254,7 @@
 }
 
 /*AJUSTES DEL COMPONENTE SobreMi*/
+
 .card{
   margin: 0 auto;
   margin-bottom: 2rem;

@@ -40,14 +40,13 @@ const Inicio = () => {
                 ..................................................................
               </li>
               <li>
-                Celular: <span className="ml-8">3219271787</span>
+                Celular:<span className="ml-8">3219271787</span>
               </li>
               <li>
-                Ciudad: <span className="ml-8">Bogotá, Colombia</span>
+                Ciudad:<span className="ml-8">Bogotá, Colombia</span>
               </li>
               <li>
-                Correo:
-                <span className="ml-10">llerlynatisrojaspuertas@gmail.com</span>
+                Correo:<span className="ml-9">llerlynatisrojaspuertas@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -63,7 +62,9 @@ const Inicio = () => {
 
         <div className="text-center lg:flex lg:flex-col justify-center items-center">
           <p className="lg:text-[12rem] text-[100px] txt-parrafo text-white text-4xl lg:whitespace-nowrap transform -rotate-90">
-            佛羅哈
+            
+
+          红小姐
           </p>
         </div>
 

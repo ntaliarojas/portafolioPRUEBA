@@ -62,7 +62,7 @@ const SobreMi = () => {
                 NATALIA <span style={{ color: "#931621" }}>ROJAS</span>
               </h1>
             </div>
-            <div className="text-[15px] flex items-center justify-center sm:mb-16">
+            <div className="text-[15px] flex items-center justify-center ">
               <h4>Desarrolladora web Front-End</h4>
             </div>
           </div>
@@ -93,7 +93,7 @@ const SobreMi = () => {
           VENGA<samp className="font-bold" style={{ color: "#031a6b" }}>LE</samp>
           <br /> CUENTO.
         </h1>
-        <div className="pt-12 sm:pb-16 text-black">
+        <div className="pt-12 text-black">
           <p>
             soy una entusiasta del anime y la programación. Me encanta parchar
             por Bogotá especialmente en bicicleta durante las noches y pasar
@@ -105,17 +105,17 @@ const SobreMi = () => {
 
         <div className="Formacion">
           <div className="mx-auto max-w-7xl  px-4 sm:px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+            <div className="mx-auto max-w-2xl py-12 sm:py-24 lg:max-w-none lg:py-32">
               <h2 className="text-4xl font-bold text-black">Formación</h2>
 
-              <div className="text-black mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
+              <div className="text-black mt-6 space-y-12 sm:grid sm:grid-cols-3 sm:gap-x-6 sm:space-y-0">
                 {callouts.map((callout) => (
                   <div key={callout.name} className="group relative">
                     <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-                      <img
+                      <img 
                         src={callout.imageSrc}
                         alt={callout.imageAlt}
-                        className="h-full w-full object-cover object-center"
+                        className="h-full w-full  object-contain object-center"
                       />
                     </div>
                     <h3 className="mt-6 text-sm  font-bold">
