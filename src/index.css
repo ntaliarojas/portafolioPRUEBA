@@ -87,12 +87,11 @@
 }
 
 @media (max-width: 1022px) and (min-width:672px ) {
-  
   .txt-parrafo {
     display: flex;
-    font-size: 7rem;
+    font-size: 6rem;
     margin-top: -10rem;
-    margin-left: 27rem;
+    margin-left: 25rem;
     color: #031a6b;
     font-weight: bold;
   }
