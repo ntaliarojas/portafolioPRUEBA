@@ -7,6 +7,8 @@ import sena from "../assets/images/sena.jpg";
 import unal from "../assets/images/unal.jpg";
 
 
+
+
 const callouts = [
   {
     name: "SENA",
@@ -65,6 +67,18 @@ const SobreMi = () => {
             <div className="text-[15px] flex items-center justify-center ">
               <h4>Desarrolladora web Front-End</h4>
             </div>
+
+            <div className="text-[15px] pt-6 flex items-center justify-center">
+              <a
+                href="/CV.pdf"  // Ruta relativa al archivo PDF
+                download="CV.pdf"
+                className="font-bold"
+                style={{ color: "#031a6b", textDecoration: "none" }}
+              >
+                Descargar CV
+              </a>
+            </div>
+
           </div>
         </div>
 
@@ -82,7 +96,7 @@ const SobreMi = () => {
             <h4>
               Tecnóloga en análisis y desarrollo de sistemas de infrormacion
               <br />y estudiante en diseño de Aplicaciones moviles <br /> con +10
-              meses de experiencia como <br /> desarrolladora <samp className="font-bold" style={{color:"#031a6b"}}>front</samp>
+              meses de experiencia como <br /> desarrolladora <samp className="font-bold" style={{ color: "#031a6b" }}>front</samp>
             </h4>
           </div>
         </div>
@@ -112,14 +126,14 @@ const SobreMi = () => {
                 {callouts.map((callout) => (
                   <div key={callout.name} className="group relative">
                     <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-                      <img 
+                      <img
                         src={callout.imageSrc}
                         alt={callout.imageAlt}
                         className="h-full w-full  object-contain object-center"
                       />
                     </div>
                     <h3 className="mt-6 text-sm  font-bold">
-                      <a href={callout.href} style={{color:"#031a6b"}}>
+                      <a href={callout.href} style={{ color: "#031a6b" }}>
                         <span className="absolute inset-0" />
                         {callout.name}
                       </a>
@@ -131,12 +145,12 @@ const SobreMi = () => {
                 ))}
               </div>
 
-             
+
             </div>
           </div>
         </div>
       </div>
-    
+
     </section>
   );
 };

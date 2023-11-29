@@ -86,7 +86,7 @@
   }
 }
 
-@media (max-width: 1022px) and (min-width:672px ) {
+@media (max-width: 1022px) and (min-width:672px ) { 
   .txt-parrafo {
     display: flex;
     font-size: 6rem;
@@ -142,7 +142,7 @@
 
 @media (max-width: 672px) and (min-width:501px ) {
   .inicio{
-    background-image: url(../src/assets/images/inicio__1_-removebg-preview.png);
+    background-image: url(../src/assets/images/fondoInicio.png);
     background-size: cover;
     background-position: center center;
   }
@@ -227,7 +227,7 @@
     color: #931621;
   }
   .inicio{
-    background-image: url(../src/assets/images/inicio__1_-removebg-preview.png);
+    background-image: url(../src/assets/images/fondoInicio.png);
     background-size: cover;
     background-position: center center;
   }
