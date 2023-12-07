@@ -4,9 +4,8 @@
 
 /*AJUSTES DEL COMPONENTE INICIO*/
 @media (min-width: 1023px) {
-  .footer{
-    display: none;
-  }
+  
+ 
   .portafolio{
     height: auto;
   }
@@ -49,13 +48,13 @@
 
   .code {
     width: 4rem;
-    bottom: 3rem;
+    bottom: 9.2rem;
     position: absolute;
     margin-left: -1rem;
   }
 
   .memoria {
-    bottom: 10rem;
+    bottom: 22rem;
     position: absolute;
     margin-left: 10rem;
   }

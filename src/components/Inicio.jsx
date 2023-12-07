@@ -21,7 +21,7 @@ const Inicio = () => {
           </div>
         </div>
 
-        <div className="redes mb-4 lg:mb-0 lg:mr-4">
+        <div className=" lg:hidden redes mb-4 lg:mb-0 lg:mr-4">
           <div className="flex items-center justify-center lg:justify-start">
             <a href="#" className="mr-4">
               <img src={instagram} alt="insta" width="30px" />
