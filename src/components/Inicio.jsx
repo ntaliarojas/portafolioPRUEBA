@@ -5,7 +5,7 @@ import instagram from "../assets/images/instagram.svg";
 
 const Inicio = () => {
   return (
-    <section className="inicio h-screen w-full flex justify-center items-center">
+    <section id="Inicio" className="inicio h-screen w-full flex justify-center items-center">
       <div className="max-w-screen-xl flex flex-col lg:flex-row justify-center items-center">
        
         {/* Nombrea */}

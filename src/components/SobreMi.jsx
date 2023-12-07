@@ -37,7 +37,7 @@ const callouts = [
 ];
 const SobreMi = () => {
   return (
-    <section className="About sm:pt-8    justify-center items-center ">
+    <section id="Sobremi" className="About sm:pt-8    justify-center items-center ">
       <div className="about2 flex flex-col lg:flex-row justify-center items-center p-8">
         <div className="flex items-center justify-center smmr-8">
           {" "}
@@ -92,7 +92,7 @@ const SobreMi = () => {
               entre creatividad <br />& tecnología.
             </h5>
           </div>
-          <div className="description text-center text-[15px] flex items-center justify-center">
+          <div className="pt-8 description text-center text-[15px] flex items-center justify-center">
             <h4>
               Tecnóloga en análisis y desarrollo de sistemas de infrormacion
               <br />y estudiante en diseño de Aplicaciones moviles <br /> con +10

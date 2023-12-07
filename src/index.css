@@ -4,6 +4,9 @@
 
 /*AJUSTES DEL COMPONENTE INICIO*/
 @media (min-width: 1023px) {
+  .footer{
+    display: none;
+  }
   .portafolio{
     height: auto;
   }
@@ -112,7 +115,7 @@
   }
   .card{
     margin: 0 auto;
-    margin-bottom: 2rem;
+
   }
   .About {
     color: black;
@@ -150,10 +153,7 @@
     background-color: #031a6b8c;
     border-radius: 30%;
   }
-  .icon{
-    background-color: none;
-    border-radius: none;
-  }
+
   .icon img{
     width:80px;
     margin: 0 auto;
@@ -171,7 +171,7 @@
  
   .About {
     color: black;
-    height: 110rem;
+    min-height: 16rem;
   }
   .about2{
     background-image: url(../src/assets/images/copia.png);
@@ -183,7 +183,7 @@
   }
 
   .txt-about3{
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #931621;
     font-weight: bold;
     margin: 0 auto;
@@ -194,6 +194,11 @@
 }
 
 @media (max-width: 500px) {
+  .card{
+    margin: 0 auto;
+    max-width: 15rem;
+    margin-bottom: 2rem;
+  }
   .icon img{
     width: 120px;
   }
@@ -208,7 +213,7 @@
   }
   .About {
     color: black;
-    height: 180rem;
+    min-height: 175rem;
   }
   .sakura {
     display: none;
@@ -222,9 +227,12 @@
     text-align: center  ;
   }
   .txt-about3{
-    font-size: 0.8rem;
-    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-weight: 900;
     color: #931621;
+    letter-spacing: 1rem;
   }
   .inicio{
     background-image: url(../src/assets/images/fondoInicio.png);
@@ -233,6 +241,14 @@
   }
  
 }
+
+@media (max-width: 290px) {
+  .card{
+    margin: 0 auto;
+    max-width: 10rem;
+    margin-bottom: 2rem;
+  }
+ }
 
 /*AJUSTES DEL COMPONENTE INICIO*/
 .inicio {
@@ -258,11 +274,13 @@
 }
 
 /*AJUSTES DEL COMPONENTE SobreMi*/
-
+.footer{
+  background-color: #c3b995;
+  color: black;
+}
 .card{
   margin: 0 auto;
   margin-bottom: 2rem;
-
 }
 .icon img:hover{
   background-color: #0b0b0e44;

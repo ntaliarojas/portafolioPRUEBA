@@ -14,7 +14,7 @@ import laravel from "../assets/images/laravel.png";
 
 const Portafolio = () => {
   return (
-    <section className="portafolio justify-center items-center">
+    <section id="Portafolio" className="portafolio justify-center items-center">
 
       <div className="  text-center  justify-center items-center ">
         <h1 className="pt-12 text-black font-bold txt-about4 text-[38px]">
@@ -22,7 +22,8 @@ const Portafolio = () => {
         </h1>
       </div>
 
-      <div className=" py-12 sm:flex gap-6 px-16">
+      <div className=" py-12 lg:flex gap-6 px-16 justify-center items-center">
+        
         <div className="card w-96 h-30 shadow-xl bg-gray-900 ">
           <figure>
             <img src={img3} alt="Shoes" />
@@ -60,7 +61,7 @@ const Portafolio = () => {
             <img src={img2} alt="Shoes" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Más proyectos</h2>
+            <h2 className="card-title">Más proyectos </h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
             <div className="card-actions justify-end">
               <div style={{ color: "#931621" }} className="badge badge-outline">
@@ -70,6 +71,7 @@ const Portafolio = () => {
             </div>
           </div>
         </div>
+
       </div>
 
       <div className="skills sm:pt-12 px-6">
