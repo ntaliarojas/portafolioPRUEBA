@@ -12,7 +12,7 @@ const NavBar = () => {
       <nav className=" text-[11px] sm:text-[18px] flex gap-4 items-center text-black">
       <span>|</span>
 
-        <Link to="/Inicio" className="hover:underline">Inicio</Link>
+        <Link to="/" className="hover:underline">Inicio</Link>
         <Link to="/SobreMi" className="hover:underline">Sobre Mí</Link>
         <Link to="/Portafolio" className="hover:underline">Portafolio</Link>
 
